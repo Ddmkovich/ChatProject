@@ -32,7 +32,7 @@ namespace maketChat
             this.label2 = new System.Windows.Forms.Label();
             this.tbPassw = new System.Windows.Forms.TextBox();
             this.tbLogin = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btChangeNIck = new System.Windows.Forms.Button();
             this.tbNewPassw = new System.Windows.Forms.TextBox();
             this.tbRepNewPasww = new System.Windows.Forms.TextBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
@@ -40,7 +40,7 @@ namespace maketChat
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btChangePasww = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -82,19 +82,19 @@ namespace maketChat
             this.tbLogin.TabIndex = 20;
             this.tbLogin.Enter += new System.EventHandler(this.tbLogin_Enter);
             // 
-            // button1
+            // btChangeNIck
             // 
-            this.button1.BackColor = System.Drawing.Color.PowderBlue;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.SystemColors.Control;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Noto Sans Cond", 15.75F);
-            this.button1.Location = new System.Drawing.Point(69, 54);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(237, 37);
-            this.button1.TabIndex = 19;
-            this.button1.Text = "Change nickname";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btChangeNIck.BackColor = System.Drawing.Color.PowderBlue;
+            this.btChangeNIck.FlatAppearance.BorderColor = System.Drawing.SystemColors.Control;
+            this.btChangeNIck.FlatAppearance.BorderSize = 0;
+            this.btChangeNIck.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btChangeNIck.Font = new System.Drawing.Font("Noto Sans Cond", 15.75F);
+            this.btChangeNIck.Location = new System.Drawing.Point(69, 54);
+            this.btChangeNIck.Name = "btChangeNIck";
+            this.btChangeNIck.Size = new System.Drawing.Size(237, 37);
+            this.btChangeNIck.TabIndex = 19;
+            this.btChangeNIck.Text = "Change nickname";
+            this.btChangeNIck.UseVisualStyleBackColor = false;
             // 
             // tbNewPassw
             // 
@@ -169,26 +169,26 @@ namespace maketChat
             this.pictureBox1.TabIndex = 22;
             this.pictureBox1.TabStop = false;
             // 
-            // button2
+            // btChangePasww
             // 
-            this.button2.BackColor = System.Drawing.Color.PowderBlue;
-            this.button2.FlatAppearance.BorderColor = System.Drawing.SystemColors.Control;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Noto Sans Cond", 15.75F);
-            this.button2.Location = new System.Drawing.Point(69, 282);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(237, 37);
-            this.button2.TabIndex = 36;
-            this.button2.Text = "Change password";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btChangePasww.BackColor = System.Drawing.Color.PowderBlue;
+            this.btChangePasww.FlatAppearance.BorderColor = System.Drawing.SystemColors.Control;
+            this.btChangePasww.FlatAppearance.BorderSize = 0;
+            this.btChangePasww.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btChangePasww.Font = new System.Drawing.Font("Noto Sans Cond", 15.75F);
+            this.btChangePasww.Location = new System.Drawing.Point(69, 282);
+            this.btChangePasww.Name = "btChangePasww";
+            this.btChangePasww.Size = new System.Drawing.Size(237, 37);
+            this.btChangePasww.TabIndex = 36;
+            this.btChangePasww.Text = "Change password";
+            this.btChangePasww.UseVisualStyleBackColor = false;
             // 
             // ChangePassNick
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(371, 331);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btChangePasww);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.tbRepNewPasww);
             this.Controls.Add(this.pictureBox4);
@@ -199,7 +199,7 @@ namespace maketChat
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.tbPassw);
             this.Controls.Add(this.tbLogin);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btChangeNIck);
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
@@ -225,12 +225,12 @@ namespace maketChat
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox tbPassw;
         private System.Windows.Forms.TextBox tbLogin;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btChangeNIck;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.TextBox tbNewPassw;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.TextBox tbRepNewPasww;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btChangePasww;
     }
 }

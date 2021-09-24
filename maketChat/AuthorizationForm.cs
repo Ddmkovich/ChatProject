@@ -39,7 +39,7 @@ namespace maketChat
             Application.Exit();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void SignIn_Click(object sender, EventArgs e)
         {
             this.Hide();
             Chat chat = new Chat();
@@ -58,5 +58,9 @@ namespace maketChat
             tbPassw.Text = null;
             tbPassw.ForeColor = Color.Black;
         }
+    }
+
+    public class AutorizationForm
+    {
     }
 }

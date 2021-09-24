@@ -147,6 +147,7 @@ namespace maketChat
             this.btSendMsg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btSendMsg.TabIndex = 2;
             this.btSendMsg.TabStop = false;
+            this.btSendMsg.Click += new System.EventHandler(this.btSendMsg_Click);
             // 
             // Chat
             // 

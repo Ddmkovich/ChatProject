@@ -30,7 +30,7 @@ namespace maketChat
             tbRepPassw.ForeColor = Color.Gray;
         }
 
-        private void pictureBox4_Click(object sender, EventArgs e)
+        private void picBack_Click(object sender, EventArgs e)
         {
             this.Close();
             
@@ -41,7 +41,7 @@ namespace maketChat
             authorizationForm.Show();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btReg_Click(object sender, EventArgs e)
         {
             label2.Text = ("Ошибка ввода!");
         }

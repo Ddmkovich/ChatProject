@@ -30,7 +30,7 @@ namespace maketChat
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AuthorizationForm));
-            this.button1 = new System.Windows.Forms.Button();
+            this.SignIn = new System.Windows.Forms.Button();
             this.tbLogin = new System.Windows.Forms.TextBox();
             this.tbPassw = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -43,20 +43,20 @@ namespace maketChat
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // SignIn
             // 
-            this.button1.BackColor = System.Drawing.Color.PowderBlue;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.SystemColors.Control;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Noto Sans Cond", 15.75F);
-            this.button1.Location = new System.Drawing.Point(57, 257);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(237, 37);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Sign In";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.SignIn.BackColor = System.Drawing.Color.PowderBlue;
+            this.SignIn.FlatAppearance.BorderColor = System.Drawing.SystemColors.Control;
+            this.SignIn.FlatAppearance.BorderSize = 0;
+            this.SignIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SignIn.Font = new System.Drawing.Font("Noto Sans Cond", 15.75F);
+            this.SignIn.Location = new System.Drawing.Point(57, 257);
+            this.SignIn.Name = "SignIn";
+            this.SignIn.Size = new System.Drawing.Size(237, 37);
+            this.SignIn.TabIndex = 1;
+            this.SignIn.Text = "Sign In";
+            this.SignIn.UseVisualStyleBackColor = false;
+            this.SignIn.Click += new System.EventHandler(this.SignIn_Click);
             // 
             // tbLogin
             // 
@@ -148,7 +148,7 @@ namespace maketChat
             this.Controls.Add(this.label2);
             this.Controls.Add(this.tbPassw);
             this.Controls.Add(this.tbLogin);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.SignIn);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -166,7 +166,7 @@ namespace maketChat
         }
 
         #endregion
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button SignIn;
         private System.Windows.Forms.TextBox tbLogin;
         private System.Windows.Forms.TextBox tbPassw;
         private System.Windows.Forms.Label label2;

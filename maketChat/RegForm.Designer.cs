@@ -77,7 +77,7 @@ namespace maketChat
             this.button1.TabIndex = 8;
             this.button1.Text = "Sign Up";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.btReg_Click);
             // 
             // tbRepPassw
             // 
@@ -111,7 +111,7 @@ namespace maketChat
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 17;
             this.pictureBox4.TabStop = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
+            this.pictureBox4.Click += new System.EventHandler(this.picBack_Click);
             // 
             // pictureBox3
             // 

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="maketChat.AuthorizationForm">
+    <Position X="4" Y="4.75" Width="2.5" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAQBABCAACAAIBIAAACgAAACAAAAAAAAoAAACABAAAA=</HashCode>
+      <FileName>AuthorizationForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="maketChat.ChangePassNick">
+    <Position X="8.75" Y="4" Width="2.25" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>KCQBAhAAACAAgBAAAACgRBCCAAAAAAAAAAAABABAAAA=</HashCode>
+      <FileName>ChangePassNick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="maketChat.Chat">
+    <Position X="0.5" Y="0.5" Width="3.25" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ACAAMAEAACAAAAgAAECAAEACIAAKCAIAEAEAAAAAIBA=</HashCode>
+      <FileName>Chat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="maketChat.RegForm">
+    <Position X="6.75" Y="0.5" Width="1.75" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAQBAhAAACAAAhACAACgAAACAAAIAEAABACAAABAAQE=</HashCode>
+      <FileName>RegForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

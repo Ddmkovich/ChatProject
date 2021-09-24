@@ -56,5 +56,10 @@ namespace maketChat
             ChangePassNick changePassNick = new ChangePassNick();
             changePassNick.Show();
         }
+
+        private void btSendMsg_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
